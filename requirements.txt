@@ -1,4 +1,6 @@
-dash
+dash.dcc
+dash.html
 dash-bootstrap-components
 pandas
-plotly
+plotly.graph_objects
+plotly.express
