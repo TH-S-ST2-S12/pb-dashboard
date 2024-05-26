@@ -425,4 +425,6 @@ def update_figures(selected_year, selected_cluster, selected_parameter, results_
 
 # Run the app
 if __name__ == '__main__':
-    app.run_server(debug=True, dev_tools_ui=False, dev_tools_props_check=False)
+    port = int(os.environ.get("PORT", 8050))
+
+    app.run_server(debug=True, dev_tools_ui=False, dev_tools_props_check=False, host="0.0.0.0", port=port)
