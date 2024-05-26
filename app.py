@@ -67,6 +67,7 @@ all_clusters_df['Year'] = pd.to_datetime(all_clusters_df['Publish Date']).dt.yea
 
 # Initialize the Dash app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, 'https://codepen.io/chriddyp/pen/bWLwgP.css'])
+server = app.server
 
 # Create a Plotly figure
 fig = go.Figure()
