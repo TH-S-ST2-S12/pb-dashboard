@@ -5,7 +5,6 @@ from dash import dcc, html, Input, Output
 import dash_bootstrap_components as dbc
 import plotly.graph_objects as go
 import pandas as pd
-import plotly.figure_factory as ff
 import plotly.express as px
 import pandas as pd
 import glob
