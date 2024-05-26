@@ -8,6 +8,7 @@ import pandas as pd
 import plotly.express as px
 import pandas as pd
 import glob
+import os
 
 # Specify the directory containing the CSV files
 directory_path = 'Trial8'
